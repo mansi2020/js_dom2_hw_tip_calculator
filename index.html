@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tip calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Mansi's Tip Calculator</h1>
+            <div class="content1">
+                <form class="subcontent">
+                    <label>How much was your bill?</label><br>
+                    <span>Rs.</span>
+                    <input type="text" id="billAmount"></input>
+                </form>
+                <form class="subcontent">
+                    <label>How was your service?</label><br>
+                    <select name="" id="">
+                        <option value="0" selected>--choosen an option--</option>
+                        <option value="30">30% - Outstanding
+                        </option>
+                        <option value="20">20% - Good</option>
+                        <option value="15">15% - It was oky</option>
+                        <option value="10">10% - Bad</option>
+                        <option value="5">5% - Terrible</option>
+                    </select>
+                </form>
+                
+                <form class="subcontent1">
+                    <label>How many people are sharing the bill?</label><br>
+                    <input type="number" id="numPeople"></input>
+                    <span>People</span>
+                </form>
+                
+            </div>
+    
+            <div class="content2">
+                <form action="" class="currencyOption">
+                    <label for="">Currency Option</label>
+                    <select name="" >
+                        <option selected>--choosen an option--</option>
+                        <option>Indian Rupees
+                        </option>
+                        <option>Us Dollar
+                        </option>
+                        <option>Euro</option>
+                        <option>Canadian Dollar</option>
+                    </select>
+                </form>
+                
+            </div>
+
+            <button>Calculate!</button>
+            <div class="total">
+                <p for="">Total :</p>
+                <div id="amount"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
