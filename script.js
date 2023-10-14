@@ -32,6 +32,7 @@ let currencySign = {
 
 let newDiv = document.createElement('div');
 amountDiv.appendChild(newDiv);
+
 button1[0].addEventListener('click',(e)=>{
     totalTip.style.display = "block";
     let bill = document.getElementById("billAmount").value;
